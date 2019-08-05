@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.context.support.ReloadableResourceBundleMessageSource</OriginalElement>
+  <nodes>
+    <node x="148.24999999999997" y="324.0">org.springframework.context.support.ResourceBundleMessageSource</node>
+    <node x="410.375" y="324.0">org.springframework.context.support.ReloadableResourceBundleMessageSource</node>
+    <node x="262.0" y="243.0">org.springframework.context.support.AbstractResourceBasedMessageSource</node>
+    <node x="114.74999999999997" y="162.0">org.springframework.context.support.AbstractMessageSource</node>
+    <node x="561.0" y="243.0">org.springframework.context.ResourceLoaderAware</node>
+    <node x="383.125" y="162.0">org.springframework.beans.factory.Aware</node>
+    <node x="213.99999999999997" y="81.0">org.springframework.context.HierarchicalMessageSource</node>
+    <node x="6.0" y="81.0">org.springframework.context.support.MessageSourceSupport</node>
+    <node x="0.0" y="243.0">org.springframework.context.support.StaticMessageSource</node>
+    <node x="247.99999999999997" y="0.0">org.springframework.context.MessageSource</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.context.support.AbstractMessageSource" target="org.springframework.context.support.MessageSourceSupport">
+      <point x="-47.25" y="-15.5" />
+      <point x="161.99999999999997" y="137.0" />
+      <point x="100.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.HierarchicalMessageSource" target="org.springframework.context.MessageSource">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.ResourceBundleMessageSource" target="org.springframework.beans.factory.Aware">
+      <point x="-58.75" y="-15.5" />
+      <point x="206.99999999999997" y="299.0" />
+      <point x="225.62499999999997" y="299.0" />
+      <point x="225.62499999999997" y="223.0" />
+      <point x="404.125" y="223.0" />
+      <point x="-21.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.StaticMessageSource" target="org.springframework.context.support.AbstractMessageSource">
+      <point x="0.0" y="-15.5" />
+      <point x="86.0" y="223.0" />
+      <point x="161.99999999999997" y="223.0" />
+      <point x="-47.25" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.ReloadableResourceBundleMessageSource" target="org.springframework.context.support.AbstractResourceBasedMessageSource">
+      <point x="-75.25" y="-15.5" />
+      <point x="485.625" y="299.0" />
+      <point x="471.25" y="299.0" />
+      <point x="69.75" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.ResourceLoaderAware" target="org.springframework.beans.factory.Aware">
+      <point x="0.0" y="-15.5" />
+      <point x="650.5" y="223.0" />
+      <point x="446.125" y="223.0" />
+      <point x="21.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.ResourceBundleMessageSource" target="org.springframework.context.support.AbstractResourceBasedMessageSource">
+      <point x="58.75" y="-15.5" />
+      <point x="324.5" y="299.0" />
+      <point x="331.75" y="299.0" />
+      <point x="-69.75" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.AbstractMessageSource" target="org.springframework.context.HierarchicalMessageSource">
+      <point x="47.25" y="-15.5" />
+      <point x="256.5" y="137.0" />
+      <point x="318.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.ReloadableResourceBundleMessageSource" target="org.springframework.context.ResourceLoaderAware">
+      <point x="75.25" y="-15.5" />
+      <point x="636.125" y="299.0" />
+      <point x="650.5" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.context.support.AbstractResourceBasedMessageSource" target="org.springframework.context.support.AbstractMessageSource">
+      <point x="0.0" y="-15.5" />
+      <point x="401.5" y="213.0" />
+      <point x="256.5" y="213.0" />
+      <point x="47.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9616055846422339" x="955.4519056261342" y="182.17967332123413" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

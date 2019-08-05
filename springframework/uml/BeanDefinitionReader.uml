@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.factory.support.BeanDefinitionReader</OriginalElement>
+  <nodes>
+    <node x="-637.0" y="284.0">org.springframework.beans.factory.support.PropertiesBeanDefinitionReader</node>
+    <node x="-383.0" y="284.0">org.springframework.beans.factory.groovy.GroovyBeanDefinitionReader</node>
+    <node x="-853.0" y="284.0">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</node>
+    <node x="-607.0" y="122.0">org.springframework.beans.factory.support.BeanDefinitionReader</node>
+    <node x="-631.0" y="203.0">org.springframework.beans.factory.support.AbstractBeanDefinitionReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.beans.factory.xml.XmlBeanDefinitionReader" target="org.springframework.beans.factory.support.AbstractBeanDefinitionReader">
+      <point x="0.0" y="-15.5" />
+      <point x="-755.0" y="259.0" />
+      <point x="-594.0" y="259.0" />
+      <point x="-74.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.AbstractBeanDefinitionReader" target="org.springframework.beans.factory.support.BeanDefinitionReader">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.PropertiesBeanDefinitionReader" target="org.springframework.beans.factory.support.AbstractBeanDefinitionReader">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.groovy.GroovyBeanDefinitionReader" target="org.springframework.beans.factory.support.AbstractBeanDefinitionReader">
+      <point x="0.0" y="-15.5" />
+      <point x="578.0" y="137.0" />
+      <point x="407.0" y="137.0" />
+      <point x="74.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="87.0" y="16.0" />
+  <SelectedNodes>
+    <node>org.springframework.beans.factory.support.PropertiesBeanDefinitionReader</node>
+    <node>org.springframework.beans.factory.groovy.GroovyBeanDefinitionReader</node>
+    <node>org.springframework.beans.factory.xml.XmlBeanDefinitionReader</node>
+    <node>org.springframework.beans.factory.support.BeanDefinitionReader</node>
+    <node>org.springframework.beans.factory.support.AbstractBeanDefinitionReader</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

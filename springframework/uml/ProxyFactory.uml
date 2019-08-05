@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.aop.TargetClassAware</OriginalElement>
+  <nodes>
+    <node x="0.0" y="243.0">org.springframework.aop.framework.ProxyFactoryBean</node>
+    <node x="130.25" y="319.0">org.springframework.aop.framework.AopProxy</node>
+    <node x="182.5" y="400.0">org.springframework.aop.framework.JdkDynamicAopProxy</node>
+    <node x="252.10714285714283" y="0.0">org.springframework.aop.framework.ProxyConfig</node>
+    <node x="146.5" y="162.0">org.springframework.aop.framework.ProxyCreatorSupport</node>
+    <node x="80.10714285714283" y="0.0">org.springframework.aop.TargetClassAware</node>
+    <node x="0.0" y="481.0">org.springframework.aop.framework.ObjenesisCglibAopProxy</node>
+    <node x="171.0" y="243.0">org.springframework.aop.framework.ProxyFactory</node>
+    <node x="28.5" y="400.0">org.springframework.aop.framework.CglibAopProxy</node>
+    <node x="313.0" y="243.0">org.springframework.aop.aspectj.annotation.AspectJProxyFactory</node>
+    <node x="161.5" y="81.0">org.springframework.aop.framework.AdvisedSupport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.aop.framework.AdvisedSupport" target="org.springframework.aop.TargetClassAware">
+      <point x="-35.25" y="-15.5" />
+      <point x="196.75" y="56.0" />
+      <point x="156.10714285714283" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.ProxyFactoryBean" target="org.springframework.aop.framework.ProxyCreatorSupport">
+      <point x="0.0" y="-15.5" />
+      <point x="75.5" y="218.0" />
+      <point x="175.0" y="218.0" />
+      <point x="-57.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.ProxyCreatorSupport" target="org.springframework.aop.framework.AdvisedSupport">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.aspectj.annotation.AspectJProxyFactory" target="org.springframework.aop.framework.ProxyCreatorSupport">
+      <point x="0.0" y="-15.5" />
+      <point x="396.0" y="218.0" />
+      <point x="289.0" y="218.0" />
+      <point x="57.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.ProxyFactory" target="org.springframework.aop.framework.ProxyCreatorSupport">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.AdvisedSupport" target="org.springframework.aop.framework.ProxyConfig">
+      <point x="35.25" y="-15.5" />
+      <point x="267.25" y="56.0" />
+      <point x="311.10714285714283" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.CglibAopProxy" target="org.springframework.aop.framework.AopProxy">
+      <point x="0.0" y="-15.5" />
+      <point x="95.5" y="375.0" />
+      <point x="156.25" y="375.0" />
+      <point x="-26.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.JdkDynamicAopProxy" target="org.springframework.aop.framework.AopProxy">
+      <point x="0.0" y="-15.5" />
+      <point x="269.0" y="375.0" />
+      <point x="208.25" y="375.0" />
+      <point x="26.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.framework.ObjenesisCglibAopProxy" target="org.springframework.aop.framework.CglibAopProxy">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="712.5" y="408.5" />
+  <SelectedNodes>
+    <node>org.springframework.aop.aspectj.annotation.AspectJProxyFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

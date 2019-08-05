@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.aopalliance.aop.Advice</OriginalElement>
+  <nodes>
+    <node x="369.0" y="162.0">org.springframework.aop.ThrowsAdvice</node>
+    <node x="0.0" y="162.0">org.aopalliance.intercept.MethodInterceptor</node>
+    <node x="23.0" y="81.0">org.aopalliance.intercept.Interceptor</node>
+    <node x="427.21875" y="81.0">org.springframework.aop.DynamicIntroductionAdvice</node>
+    <node x="653.21875" y="81.0">org.springframework.aop.BeforeAdvice</node>
+    <node x="395.5" y="0.0">org.aopalliance.aop.Advice</node>
+    <node x="293.21875" y="81.0">org.springframework.aop.AfterAdvice</node>
+    <node x="179.0" y="162.0">org.springframework.aop.AfterReturningAdvice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.aop.BeforeAdvice" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-15.5" />
+      <point x="715.71875" y="51.0" />
+      <point x="470.75" y="51.0" />
+      <point x="32.25" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.AfterReturningAdvice" target="org.springframework.aop.AfterAdvice">
+      <point x="0.0" y="-15.5" />
+      <point x="264.0" y="137.0" />
+      <point x="321.71875" y="137.0" />
+      <point x="-28.5" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.AfterAdvice" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-15.5" />
+      <point x="350.21875" y="61.0" />
+      <point x="427.75" y="61.0" />
+      <point x="-10.75" y="15.5" />
+    </edge>
+    <edge source="org.aopalliance.intercept.Interceptor" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-15.5" />
+      <point x="79.5" y="51.0" />
+      <point x="406.25" y="51.0" />
+      <point x="-32.25" y="15.5" />
+    </edge>
+    <edge source="org.aopalliance.intercept.MethodInterceptor" target="org.aopalliance.intercept.Interceptor">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.ThrowsAdvice" target="org.springframework.aop.AfterAdvice">
+      <point x="0.0" y="-15.5" />
+      <point x="433.0" y="137.0" />
+      <point x="378.71875" y="137.0" />
+      <point x="28.5" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.DynamicIntroductionAdvice" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-15.5" />
+      <point x="530.21875" y="61.0" />
+      <point x="449.25" y="61.0" />
+      <point x="10.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="624.0" y="15.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

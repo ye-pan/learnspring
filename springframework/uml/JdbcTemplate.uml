@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.jdbc.core.JdbcTemplate</OriginalElement>
+  <nodes>
+    <node x="219.0" y="319.0">org.springframework.jdbc.core.SingleColumnRowMapper</node>
+    <node x="0.0" y="81.0">org.springframework.jdbc.core.JdbcOperations</node>
+    <node x="0.0" y="319.0">org.springframework.jdbc.core.BeanPropertyRowMapper</node>
+    <node x="258.5" y="238.0">org.springframework.jdbc.core.RowMapper</node>
+    <node x="5.5" y="476.0">org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate</node>
+    <node x="160.0" y="81.0">org.springframework.jdbc.support.JdbcAccessor</node>
+    <node x="438.0" y="319.0">org.springframework.jdbc.core.ColumnMapRowMapper</node>
+    <node x="0.0" y="395.0">org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations</node>
+    <node x="156.0" y="0.0">org.springframework.beans.factory.InitializingBean</node>
+    <node x="82.25" y="162.0">org.springframework.jdbc.core.JdbcTemplate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" target="org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.jdbc.core.ColumnMapRowMapper" target="org.springframework.jdbc.core.RowMapper">
+      <point x="0.0" y="-15.5" />
+      <point x="533.5" y="294.0" />
+      <point x="358.5" y="294.0" />
+      <point x="40.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.jdbc.core.BeanPropertyRowMapper" target="org.springframework.jdbc.core.RowMapper">
+      <point x="0.0" y="-15.5" />
+      <point x="99.5" y="294.0" />
+      <point x="278.5" y="294.0" />
+      <point x="-40.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.jdbc.core.JdbcTemplate" target="org.springframework.jdbc.support.JdbcAccessor">
+      <point x="32.25" y="-15.5" />
+      <point x="179.0" y="137.0" />
+      <point x="223.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.jdbc.core.JdbcTemplate" target="org.springframework.jdbc.core.JdbcOperations">
+      <point x="-32.25" y="-15.5" />
+      <point x="114.5" y="137.0" />
+      <point x="70.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.jdbc.support.JdbcAccessor" target="org.springframework.beans.factory.InitializingBean">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.jdbc.core.SingleColumnRowMapper" target="org.springframework.jdbc.core.RowMapper">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="567.0" y="247.5" />
+  <SelectedNodes>
+    <node>org.springframework.jdbc.core.BeanPropertyRowMapper</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="foo" class="com.yp.spring.ioc.foo.Foo">
+        <constructor-arg value="hello world"/>
+    </bean>
+    <bean id="bar" class="com.yp.spring.ioc.foo.Bar" scope="prototype">
+        <property name="foo" ref="foo"/>
+    </bean>
+    <bean class="com.yp.spring.ioc.foo.SimpleBeanPostProcessor"/>
+</beans>

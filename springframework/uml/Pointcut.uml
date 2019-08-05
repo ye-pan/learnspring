@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.aop.aspectj.AspectJExpressionPointcut</OriginalElement>
+  <nodes>
+    <node x="929.6996240601504" y="101.0">org.springframework.aop.support.ComposablePointcut</node>
+    <node x="1014.0" y="0.0">org.springframework.aop.Pointcut</node>
+    <node x="1784.5" y="101.0">org.springframework.beans.factory.Aware</node>
+    <node x="495.0" y="101.0">org.springframework.aop.support.StaticMethodMatcherPointcut</node>
+    <node x="1524.0" y="182.0">org.springframework.aop.support.AbstractExpressionPointcut</node>
+    <node x="312.0" y="101.0">org.springframework.aop.support.ControlFlowPointcut</node>
+    <node x="1749.0" y="182.0">org.springframework.beans.factory.BeanFactoryAware</node>
+    <node x="750.0" y="182.0">org.springframework.cache.jcache.interceptor.JCacheOperationSourcePointcut</node>
+    <node x="0.0" y="182.0">org.springframework.cache.interceptor.CacheOperationSourcePointcut</node>
+    <node x="55.0" y="101.0">org.springframework.aop.support.DynamicMethodMatcherPointcut</node>
+    <node x="1548.0" y="101.0">org.springframework.aop.support.ExpressionPointcut</node>
+    <node x="1117.6996240601504" y="101.0">org.springframework.aop.TruePointcut</node>
+    <node x="1888.5" y="101.0">org.springframework.aop.support.annotation.AnnotationMatchingPointcut</node>
+    <node x="248.0" y="182.0">org.springframework.aop.support.NameMatchMethodPointcut</node>
+    <node x="479.0" y="182.0">org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut</node>
+    <node x="1255.0" y="182.0">org.springframework.aop.IntroductionAwareMethodMatcher</node>
+    <node x="1017.0" y="263.0">org.springframework.aop.support.JdkRegexpMethodPointcut</node>
+    <node x="1502.5" y="263.0">org.springframework.aop.aspectj.AspectJExpressionPointcut</node>
+    <node x="1003.0" y="182.0">org.springframework.aop.support.AbstractRegexpMethodPointcut</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.aop.aspectj.AspectJExpressionPointcut" target="org.springframework.aop.support.AbstractExpressionPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="1603.0" y="238.0" />
+      <point x="1626.5" y="238.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.ComposablePointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="1013.6996240601504" y="81.0" />
+      <point x="1061.0" y="81.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.TruePointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="1177.6996240601504" y="81.0" />
+      <point x="1074.4285714285713" y="81.0" />
+      <point x="13.428571428571331" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.aspectj.AspectJExpressionPointcut" target="org.springframework.beans.factory.BeanFactoryAware">
+      <point x="67.0" y="-15.5" />
+      <point x="1670.0" y="238.0" />
+      <point x="1826.5" y="238.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.JCacheOperationSourcePointcut" target="org.springframework.aop.support.StaticMethodMatcherPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="866.5" y="162.0" />
+      <point x="648.3" y="162.0" />
+      <point x="43.799999999999955" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.AbstractExpressionPointcut" target="org.springframework.aop.support.ExpressionPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.ControlFlowPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="393.5" y="61.0" />
+      <point x="1034.142857142857" y="61.0" />
+      <point x="-26.85714285714289" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.AbstractRegexpMethodPointcut" target="org.springframework.aop.support.StaticMethodMatcherPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="1119.0" y="152.0" />
+      <point x="692.0999999999999" y="152.0" />
+      <point x="87.59999999999991" y="15.5" />
+    </edge>
+    <edge source="org.springframework.cache.interceptor.CacheOperationSourcePointcut" target="org.springframework.aop.support.StaticMethodMatcherPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="114.0" y="152.0" />
+      <point x="516.9000000000001" y="152.0" />
+      <point x="-87.59999999999991" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.DynamicMethodMatcherPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="173.5" y="51.0" />
+      <point x="1020.7142857142858" y="51.0" />
+      <point x="-40.28571428571422" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.NameMatchMethodPointcut" target="org.springframework.aop.support.StaticMethodMatcherPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="353.5" y="162.0" />
+      <point x="560.7" y="162.0" />
+      <point x="-43.799999999999955" y="15.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut" target="org.springframework.aop.support.StaticMethodMatcherPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.annotation.AnnotationMatchingPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="1994.0" y="61.0" />
+      <point x="1101.2857142857142" y="61.0" />
+      <point x="40.28571428571422" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.aspectj.AspectJExpressionPointcut" target="org.springframework.aop.IntroductionAwareMethodMatcher">
+      <point x="-67.0" y="-15.5" />
+      <point x="1536.0" y="238.0" />
+      <point x="1379.5" y="238.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.StaticMethodMatcherPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="604.5" y="71.0" />
+      <point x="1047.5714285714287" y="71.0" />
+      <point x="-13.428571428571331" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.ExpressionPointcut" target="org.springframework.aop.Pointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="1626.5" y="71.0" />
+      <point x="1087.857142857143" y="71.0" />
+      <point x="26.85714285714289" y="15.5" />
+    </edge>
+    <edge source="org.springframework.aop.support.JdkRegexpMethodPointcut" target="org.springframework.aop.support.AbstractRegexpMethodPointcut">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.BeanFactoryAware" target="org.springframework.beans.factory.Aware">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1109.0" y="137.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

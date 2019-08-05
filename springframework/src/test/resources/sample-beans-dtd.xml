@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="foo" class="com.yp.spring.ioc.foo.Foo">
+        <constructor-arg index="0" value="hello world"></constructor-arg>
+    </bean>
+    <bean id="bar" class="com.yp.spring.ioc.foo.Bar">
+        <property name="foo" ref="foo"/>
+    </bean>
+</beans>
