@@ -51,10 +51,11 @@ public class BatchConfiguration {
     public Step step() {
         return stepBuilderFactory
                 .get("step")
-                .<Employee, Employee>chunk(5)
+                .<Employee, Employee>chunk(1)
                 .reader(reader())
                 .processor(processor())
                 .writer(writer())
+                .listener(listener())
                 .build();
 
     }
@@ -108,5 +109,15 @@ public class BatchConfiguration {
                 .addScript("classpath:employee.sql")
                 .setType(EmbeddedDatabaseType.H2)
                 .build();
+    }
+
+    @Bean
+    public ItemCountItemStream stream() {
+        return new ItemCountItemStream();
+    }
+
+    @Bean
+    public ItemCountListener listener() {
+        return new ItemCountListener();
     }
 }
